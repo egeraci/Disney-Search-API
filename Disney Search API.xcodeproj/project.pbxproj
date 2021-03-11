@@ -11,6 +11,7 @@
 		3F91546F25FAC33E0082A4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91546E25FAC33E0082A4F3 /* ContentView.swift */; };
 		3F91547125FAC3420082A4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F91547025FAC3420082A4F3 /* Assets.xcassets */; };
 		3F91547425FAC3420082A4F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F91547325FAC3420082A4F3 /* Preview Assets.xcassets */; };
+		3F91547D25FAC83F0082A4F3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91547C25FAC83F0082A4F3 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3F91547025FAC3420082A4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F91547325FAC3420082A4F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F91547525FAC3420082A4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F91547C25FAC83F0082A4F3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				3F91546E25FAC33E0082A4F3 /* ContentView.swift */,
 				3F91547025FAC3420082A4F3 /* Assets.xcassets */,
 				3F91547525FAC3420082A4F3 /* Info.plist */,
+				3F91547C25FAC83F0082A4F3 /* SwiftyJSON.swift */,
 				3F91547225FAC3420082A4F3 /* Preview Content */,
 			);
 			path = "Disney Search API";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F91547D25FAC83F0082A4F3 /* SwiftyJSON.swift in Sources */,
 				3F91546F25FAC33E0082A4F3 /* ContentView.swift in Sources */,
 				3F91546D25FAC33E0082A4F3 /* Disney_Search_APIApp.swift in Sources */,
 			);

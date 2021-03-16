@@ -33,17 +33,17 @@ struct ContentView: View {
     {
         let apiKey = "?rapidapi-key=9ffc0481e6msh0b0a5178fa7b7a1p135476jsn3edbce5e740f"
         let query = "https://google-search3.p.rapidapi.com/api/v1/search/q=disney&num=100\(apiKey)"
-        if let url = URL (string:query)
+        if let url = URL(string: query)
         {
             if let data = try? Data(contentsOf: url)
             {
                 let json = try! JSON(data: data)
-                let contents = json["resalts"].arrayValue
+                let contents = json["results"].arrayValue
                 for item in contents
                 {
                     let title = item["title"].stringValue
                     let link = item ["link"].stringValue
-                    let entry = Entry(title: title,link: link)
+                    let entry = Entry(title: title, link: link)
                     entries.append(entry)
                 }
                 return
